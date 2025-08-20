@@ -9,6 +9,11 @@ const APIKEY = process.env.api_key
 app.use(cors())
 
 
+app.get('/', (req, res) => {
+  res.json({ message: 'API do Jornal Diário está funcionando!' });
+});
+
+
 app.get('/dados' , async (req,res) => {
     const categoria = req.query.categoria
     const pais = req.query.pais
