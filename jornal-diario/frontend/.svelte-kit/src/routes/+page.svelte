@@ -8,7 +8,7 @@
 
     async function puxar() {
         try {
-            const valores = await fetch(`http://localhost:3000/dados?categoria=${categoria}&pais=${pais}`);
+            const valores = await fetch(`${import.meta.env.VITE_rota}?categoria=${categoria}&pais=${pais}`);
             const valoresMesmo = await valores.json();
 
             noticias = valoresMesmo.data.slice(0, 4);
