@@ -1,4 +1,4 @@
-# ⭐CHECAR_CADASTRO
+# ⭐JORNAL-DIARIO
     O Jornal Diário é uma aplicação de notícias que tem como função te deixar 
     informado sobre o Brasil e o mundo, sobre os mais variádos temas, consumindo 
     os dados de um servidor externo. 
